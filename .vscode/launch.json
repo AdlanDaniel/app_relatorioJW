@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "relatorio_jw_app",
+            "cwd": "relatorio_jw_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "relatorio_jw_app (profile mode)",
+            "cwd": "relatorio_jw_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "relatorio_jw_app (release mode)",
+            "cwd": "relatorio_jw_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "mock_server",
+            "cwd": "relatorio_jw_mock_server",
+            "request": "launch",
+            "type": "dart",
+            "program": "bin/server.dart"
+        },
+        {
+            "name": "example - DS",
+            "cwd": "relatorio_jw_design_system/example",
+            "request": "launch",
+            "type": "dart"
+        },
+    ]
+}

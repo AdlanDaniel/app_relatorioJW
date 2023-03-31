@@ -1,0 +1,52 @@
+name: relatorio_jw_design_system
+description: A new Flutter package project.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  shimmer: ^2.0.0
+  lottie: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+
+
+# The following section is specific to Flutter packages.
+flutter:
+  assets:
+  - assets/animations/loading.json
+  - fluttericon/fonts/
+
+  uses-material-design: true
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: lib/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: lib/fonts/Montserrat-BoldItalic.ttf
+          style: italic
+        - asset: lib/fonts/Montserrat-Light.ttf
+          weight: 300
+        - asset: lib/fonts/Montserrat-Medium.ttf
+          weight: 400
+        - asset: lib/fonts/Montserrat-Regular.ttf
+
+    - family:  CustomIcons
+      fonts:
+       - asset: fluttericon/fonts/CustomIcons.ttf
+  #
+  # For details regarding fonts in packages, see
+  # https://flutter.dev/custom-fonts/#from-packages

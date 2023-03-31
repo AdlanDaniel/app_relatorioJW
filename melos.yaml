@@ -1,0 +1,19 @@
+name: relatoriojw
+packages:
+  - relatorio_jw_*/**
+scripts:
+  get:
+    description: Install dependencies
+    run: melos exec -- flutter pub get
+  clean:
+    description: Clean workspace and packages
+    run: melos clean
+  format:
+    description: Format code
+    run: melos exec -- flutter format ./
+  analyze:
+    description: Run linter rules
+    run: melos exec -- flutter analyze --no-fatal-infos
+  test:
+    description: Run unit tests
+    run: melos exec -- flutter test
